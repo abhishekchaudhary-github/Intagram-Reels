@@ -1,0 +1,43 @@
+.video-container{
+    height : 80vh;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: scroll;
+    scroll-snap-type : y mandatory;
+    scrollbar-width : none;
+}
+
+.video-container::-webkit-scrollbar{
+    display: none;
+}
+
+.videos{
+    position : relative;
+}
+
+.fa{
+    position : absolute;
+    bottom : 6%;
+    left : 2%;
+}
+
+.fa h4{
+    color : #fff;
+    margin-top : 2%;
+    margin-left : 4px
+}
+.icon-styling{
+    position : absolute;
+    bottom : 9%;
+    left : 30%; 
+}
+
+.like{
+    cursor : pointer;
+    color : #e74c3c;
+}
+
+.unlike{
+    cursor : pointer;
+    color : #fff;
+}
